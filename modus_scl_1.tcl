@@ -24,7 +24,7 @@ file delete -force $WORKDIR/testresults;                  # Delete Test Output F
 #-------------------------------------------------------------------------------
 build_model \
     -cell	 picorv_top \
-    -techlib	 /home/user01/JScanLib/Faraday65nm/fse0k_d_generic_core_21.v \
+    -techlib	 /home/user01/Desktop/Cadence_Work/sclpdk/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/tmax_model/lib_flow_ss/*.v \
     -designsource	 $WORKDIR/picorv_top.test_netlist.v \
     -allowmissingmodules	 no \
 
